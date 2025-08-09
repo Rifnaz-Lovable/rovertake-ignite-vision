@@ -12,8 +12,8 @@ const WhyChoose = () => {
   const advantages = [
     {
       icon: Shield,
-      title: "Proven Expertise",
-      description: "5+ years of experience delivering high-quality digital solutions across various industries."
+      title: "Quality First",
+      description: "We prioritize quality in every line of code and every design decision we make."
     },
     {
       icon: Clock,
@@ -23,12 +23,12 @@ const WhyChoose = () => {
     {
       icon: Users,
       title: "Dedicated Team",
-      description: "Expert developers, designers, and strategists committed to your project's success."
+      description: "Skilled developers, designers, and strategists committed to your project's success."
     },
     {
       icon: Trophy,
-      title: "Award-Winning",
-      description: "Recognition for excellence in digital innovation and client satisfaction."
+      title: "Modern Approach",
+      description: "We use the latest methodologies and technologies to build future-proof solutions."
     },
     {
       icon: Zap,
@@ -76,19 +76,19 @@ const WhyChoose = () => {
         <div className="mt-20 bg-gradient-hero rounded-2xl p-12 text-white animate-fade-in-up">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">50+</div>
-              <div className="text-gray-300">Projects Completed</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">98%</div>
-              <div className="text-gray-300">Client Satisfaction</div>
+              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">100%</div>
+              <div className="text-gray-300">Commitment</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-accent mb-2">24/7</div>
               <div className="text-gray-300">Support Available</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">15+</div>
+              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">Fast</div>
+              <div className="text-gray-300">Delivery Promise</div>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">10+</div>
               <div className="text-gray-300">Technologies Mastered</div>
             </div>
           </div>

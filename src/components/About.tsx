@@ -31,22 +31,22 @@ const About = () => {
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Founded with a vision to bridge the gap between innovative technology and business success, 
-              Rovertake has emerged as a trusted digital innovation partner for ambitious companies 
-              worldwide.
+              Rovertake is your fresh digital innovation partner ready to tackle ambitious projects 
+              with cutting-edge solutions.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Our mission is simple: to help businesses innovate, transform, and grow through 
-              strategic digital solutions that deliver measurable results. We combine technical 
-              expertise with business acumen to create solutions that not only work but thrive 
-              in the competitive digital landscape.
+              strategic digital solutions that deliver measurable results. We combine the latest 
+              technologies with creative problem-solving to build solutions that not only work 
+              but excel in today's competitive digital landscape.
             </p>
 
             <div className="space-y-4 mb-8">
               {[
-                "5+ years of industry experience",
-                "50+ successful projects delivered",
-                "Expert team of developers, designers, and strategists",
-                "Proven track record with Fortune 500 companies"
+                "Fresh perspectives on digital challenges",
+                "Latest technologies and modern frameworks",
+                "Dedicated team of skilled developers and designers",
+                "Agile development approach for faster delivery"
               ].map((item, index) => (
                 <div key={index} className="flex items-center space-x-3">
                   <Check className="h-5 w-5 text-accent flex-shrink-0" />
@@ -67,7 +67,7 @@ const About = () => {
 
           {/* Values */}
           <div className="space-y-8 animate-slide-in-left">
-            <h3 className="text-2xl font-bold text-foreground mb-8">Our Core Values</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-8">Why We're Different</h3>
             {values.map((value, index) => (
               <div key={value.title} className="flex space-x-4 p-6 rounded-lg bg-card shadow-card hover:shadow-elegant transition-all duration-300">
                 <div className="p-3 rounded-lg bg-accent/10">

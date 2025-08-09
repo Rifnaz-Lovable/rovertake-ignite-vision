@@ -13,59 +13,58 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-          {/* Logo */}
-          <div className="mb-8 flex justify-center">
-            <img 
-              src="/lovable-uploads/f90ac92a-7080-4d1b-b196-a19894788b4a.png" 
-              alt="Rovertake" 
-              className="h-16 w-auto animate-scale-in"
-            />
+          {/* Company Name */}
+          <div className="mb-8 animate-scale-in">
+            <h1 className="text-6xl md:text-8xl font-bold text-white mb-2 tracking-tight">
+              <span className="text-transparent bg-gradient-to-r from-white to-gray-300 bg-clip-text">Rover</span>
+              <span className="text-transparent bg-gradient-to-r from-accent to-brand-pink-light bg-clip-text">take</span>
+            </h1>
           </div>
 
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-slide-in-left">
-            <Sparkles className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Digital Innovation Partner</span>
+          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8 animate-slide-in-left">
+            <Sparkles className="h-5 w-5 text-accent" />
+            <span className="text-lg font-medium">Digital Innovation Partner</span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 animate-fade-in-up">
-            Transform Your 
+          <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-8 animate-fade-in-up">
+            We Build Digital Solutions That 
             <span className="text-transparent bg-gradient-to-r from-accent to-brand-pink-light bg-clip-text">
-              {" "}Digital Future
+              {" "}Actually Work
             </span>
-          </h1>
+          </h2>
 
           {/* Subtext */}
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
-            We partner with ambitious businesses to design, build, and scale 
-            digital solutions that drive real growth and innovation.
+            Fresh perspectives, cutting-edge technology, and relentless focus on results. 
+            We're here to turn your digital vision into reality.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up">
             <Button variant="hero" size="xl" className="group">
-              Start a Project
+              Start Your Project
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline-hero" size="xl">
-              View Our Services
+              See What We Do
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-20 max-w-2xl mx-auto animate-fade-in-up">
+          {/* Value Props */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-3xl mx-auto animate-fade-in-up">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">50+</div>
-              <div className="text-gray-400 text-sm">Projects Delivered</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">100%</div>
+              <div className="text-gray-400 text-sm">Commitment to Quality</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">98%</div>
-              <div className="text-gray-400 text-sm">Client Satisfaction</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">24/7</div>
+              <div className="text-gray-400 text-sm">Available for Support</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">5+</div>
-              <div className="text-gray-400 text-sm">Years Experience</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">Fast</div>
+              <div className="text-gray-400 text-sm">Delivery & Results</div>
             </div>
           </div>
         </div>
