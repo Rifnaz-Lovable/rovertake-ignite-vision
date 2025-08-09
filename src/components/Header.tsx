@@ -16,12 +16,19 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo - Responsive */}
           <div className="flex items-center">
+            {/* Desktop Logo */}
             <img 
               src="/lovable-uploads/9acd67ad-b7fb-48a1-9263-6ae46770d2c8.png" 
               alt="Rovertake" 
-              className="h-8 w-auto"
+              className="h-8 w-auto hidden sm:block"
+            />
+            {/* Mobile Logo - R icon */}
+            <img 
+              src="/lovable-uploads/bbe63455-6c62-4947-9938-8e4e8826d509.png" 
+              alt="Rovertake" 
+              className="h-8 w-8 sm:hidden"
             />
           </div>
 

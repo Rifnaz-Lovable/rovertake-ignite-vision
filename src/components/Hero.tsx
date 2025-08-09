@@ -13,14 +13,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-          {/* Company Name */}
-          <div className="mb-8 animate-scale-in">
-            <h1 className="text-6xl md:text-8xl font-bold text-white mb-2 tracking-tight">
-              <span className="text-transparent bg-gradient-to-r from-white to-gray-300 bg-clip-text">Rover</span>
-              <span className="text-transparent bg-gradient-to-r from-accent to-brand-pink-light bg-clip-text">take</span>
-            </h1>
-          </div>
-
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8 animate-slide-in-left">
             <Sparkles className="h-5 w-5 text-accent" />
@@ -28,12 +20,12 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-8 animate-fade-in-up">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 animate-fade-in-up">
             We Build Digital Solutions That 
             <span className="text-transparent bg-gradient-to-r from-accent to-brand-pink-light bg-clip-text">
               {" "}Actually Work
             </span>
-          </h2>
+          </h1>
 
           {/* Subtext */}
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
