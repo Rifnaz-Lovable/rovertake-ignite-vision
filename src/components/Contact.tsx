@@ -97,7 +97,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground">hello@rovertake.com</p>
+                  <p className="text-muted-foreground">info@rovertake.com</p>
                 </div>
               </div>
               
@@ -107,7 +107,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Phone</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+94 71 7100072</p>
                 </div>
               </div>
               
@@ -117,7 +117,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Location</p>
-                  <p className="text-muted-foreground">Global • Remote-First</p>
+                  <p className="text-muted-foreground">Colombo • Sri Lanka</p>
                 </div>
               </div>
             </div>
@@ -126,10 +126,10 @@ const Contact = () => {
             <div className="pt-8 border-t border-border/50">
               <h4 className="text-lg font-semibold text-foreground mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="https://www.rifnaz.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-accent/10 hover:bg-accent/20 transition-colors duration-300 group">
+                <a href="https://www.linkedin.com/company/rovertake/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-accent/10 hover:bg-accent/20 transition-colors duration-300 group">
                   <Linkedin className="h-6 w-6 text-accent group-hover:scale-110 transition-transform" />
                 </a>
-                <a href="#" className="p-3 rounded-lg bg-accent/10 hover:bg-accent/20 transition-colors duration-300 group">
+                <a href="https://x.com/_rovertake" className="p-3 rounded-lg bg-accent/10 hover:bg-accent/20 transition-colors duration-300 group">
                   <Twitter className="h-6 w-6 text-accent group-hover:scale-110 transition-transform" />
                 </a>
                 <a href="#" className="p-3 rounded-lg bg-accent/10 hover:bg-accent/20 transition-colors duration-300 group">
