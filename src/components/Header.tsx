@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex items-center">
             {/* Desktop Logo */}
             <img 
-              src="/lovable-uploads/9acd67ad-b7fb-48a1-9263-6ae46770d2c8.png" 
+              src="/lovable-uploads/Rovertake-named-logo.png" 
               alt="Rovertake" 
               className="h-8 w-auto hidden sm:block"
             />
@@ -28,7 +28,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/bbe63455-6c62-4947-9938-8e4e8826d509.png" 
               alt="Rovertake" 
-              className="h-8 w-8 sm:hidden"
+              className="h-10 w-10 sm:hidden"
             />
           </div>
 
